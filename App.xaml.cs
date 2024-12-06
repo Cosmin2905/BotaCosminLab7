@@ -17,11 +17,13 @@ namespace BotaCosminLab7
                 return database; 
             }
         }
+
         public App()
         {
             InitializeComponent();
 
             MainPage = new AppShell();
+
         }
     }
 }
